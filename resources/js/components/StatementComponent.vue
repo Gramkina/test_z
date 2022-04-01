@@ -18,7 +18,7 @@
             <p>
                 Компания: {{ showedStatement.company }}
             </p>
-            <div v-if="showedStatement.file != null" class="statement-file">
+            <div v-show="showedStatement.file.name" class="statement-file">
                 Прикрепленный файл:
                 <a v-bind:href="showurl + '/' + showedStatement.id + '/download/'+ showedStatement.file.tmp_name" class="file-div" target="_blank">
                     {{ showedStatement.file.name }}

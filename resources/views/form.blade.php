@@ -35,6 +35,7 @@
                                  name="user-phone"
                                  pattern="[0-9]{10}"
                                  required
+                                 title="Номер без +7 и 8"
                         />
                     </div>
 
@@ -64,8 +65,7 @@
                         <textarea id="statement-message" class="block mt-1 w-full rounded-md shadow-sm border-gray-300"
                                   name="statement-message"
                                   required
-                        >
-                        </textarea>
+                        ></textarea>
                     </div>
 
                     {{-- Statement file --}}
