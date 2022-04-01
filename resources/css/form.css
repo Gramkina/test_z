@@ -1,0 +1,8 @@
+textarea {
+    height: 200px;
+    resize: none;
+}
+.send-statement{
+    margin-top: 10px;
+    float: right;
+}

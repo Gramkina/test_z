@@ -1,0 +1,40 @@
+.statement{
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.statement img{
+    width: 2%;
+}
+.statement-title{
+    border-bottom: 1px solid #383838;
+    display: inline-block;
+}
+.statement-message{
+    background-color: #EFEFEF;
+    border-radius: 0 0 6px 6px;
+    padding: 15px;
+    min-height: 150px;
+    width: 100%;
+}
+.statement-info p{
+    margin-bottom: 15px;
+}
+.statement-file{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.created-statement{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+.file-div{
+    background-color: #383838;
+    color: #DFDFDF;
+    padding: 3px 7px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
